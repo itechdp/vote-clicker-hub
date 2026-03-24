@@ -122,4 +122,26 @@
     @apply h-3 rounded-full transition-all duration-700 ease-out;
     background: linear-gradient(90deg, hsl(0 72% 51%), hsl(0 72% 60%));
   }
+
+  /* Dashboard fade-in animation */
+  .dashboard-card {
+    animation: dash-fade-up 0.35s ease-out both;
+  }
+
+  @keyframes dash-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Stat card icon glow on hover */
+  .stat-icon-red   { @apply bg-red-50;  color: #dc2626; }
+  .stat-icon-amber { @apply bg-amber-50; color: #d97706; }
+  .stat-icon-blue  { @apply bg-blue-50;  color: #1d4ed8; }
+  .stat-icon-green { @apply bg-green-50; color: #16a34a; }
 }
