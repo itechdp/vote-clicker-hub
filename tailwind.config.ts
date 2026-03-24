@@ -39,6 +39,12 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        election: {
+          gold: "hsl(var(--election-gold))",
+          "gold-foreground": "hsl(var(--election-gold-foreground))",
+          success: "hsl(var(--election-success))",
+          "success-foreground": "hsl(var(--election-success-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
